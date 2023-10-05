@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+    <link rel="stylesheet" href="notes.css">
+    <link rel="stylesheet" href="/jquery-ui-1.13.2/jquery-ui.css">
+    <script src="notes.js" defer></script>
+    <script src="/package-lock.json" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="welcome">Welcome to Sticky Notes</h1>
+    </header>
+    <textarea id="the-note" rows="3" placeholder="Add Your Note..." contenteditable></textarea>
+    <br>
+    <button id="btn-add">Add New Note</button>
+    <button id="btn-clear">Clear All Notes</button>
+
+    <div id="div-container">
+        <!--<div id="new-note" class="small-notes" draggable="true">1</div>
+        <div-- id="new-note" class="small-notes" draggable="true">2</div-->
+        <!--<div id="new-note" class="big-note" draggable="true">meeting at 5PM</div>-->
+    </div>
+    
+    
+
+
+    <div id="setting-menu">
+        <div class="item">edit</div>
+        <div class="item">minimize</div>
+        <div class="item">delete</div>
+        <div class="item">change color</div>
+    </div>
+</body>
+
+</html>
